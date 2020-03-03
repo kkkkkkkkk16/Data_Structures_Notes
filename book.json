@@ -1,0 +1,76 @@
+{
+    "title": "数据结构",
+    "description": "C描述",
+    "author": "kkkkkkkkk16",
+    "language": "zh-hans",
+    "root": ".",
+    "links": {
+        "sidebar": {
+            "Home": "https://blog.alimas-studio.com"
+        }
+    },
+    "plugins": [
+        "-lunr",
+        "-search",
+        "-highlight",
+        "-livereload",
+        "search-plus",
+        "github",
+        "prism-themes",
+        "anchors",
+        "emphasize",
+        "mathjax-commonhtml",
+        "mermaid-gb3",
+        "expandable-chapters",
+        "chapter-fold",
+        "terminal",
+        "alerts",
+        "include-csv",
+        "puml",
+        "-sharing",
+        "sharing-plus",
+        "chart"
+    ],
+
+    "pluginsConfig": {
+
+        "theme-default": {
+            "showLevel": true
+        },
+        "github": {
+            "url": "https://github.com/kkkkkkkkk16/Data_Structures_Notes"
+        },
+        "sharing": {
+            "douban": true,
+            "facebook": false,
+            "google": true,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": false,
+            "qzone": false,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": true,
+            "whatsapp": false,
+            "all": [
+                "facebook", "google", "twitter",
+                "weibo", "instapaper", "linkedin",
+                "pocket", "stumbleupon", "qq", "qzone"
+            ]
+        },
+        "terminal": {
+            "copyButtons": true,
+            "fade": false,
+            "style": "flat"
+        },
+        "chart": {
+            "type": "highcharts"
+        }
+    }
+}
